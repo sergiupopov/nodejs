@@ -14,11 +14,11 @@ image:
     cert-manager.io/cluster-issuer: letsencrypt-prod-dns01
     acme.cert-manager.io/http01-edit-in-place: "true"
   hosts:
-    - host: qa.zbscompany.link
+    - host: nodejsqa.zbscompany.link
       paths:
         - path: /
           pathType: ImplementationSpecific
   tls: 
    - secretName: nodejs-qa-tls
      hosts:
-       - qa.zbscompany.link
+       - nodejsqa.zbscompany.link
