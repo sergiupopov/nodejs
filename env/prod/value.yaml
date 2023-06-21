@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: nginxus-central1-docker.pkg.dev/maximal-arcadia-387721/nodejs/nodejs
+  repository: us-central1-docker.pkg.dev/maximal-arcadia-387721/nodejs/nodejs
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "1.0.0"
